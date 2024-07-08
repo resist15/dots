@@ -127,8 +127,7 @@ bindsym $mod+Return exec --no-startup-id kitty
 bindsym $mod+q kill
 
 # exit-menu
-#bindsym $mod+Shift+e exec --no-startup-id ~/.config/i3/scripts/powermenu
-bindsym $mod+Shift+e exec --no-startup-id powermenu_t1
+bindsym $mod+Shift+e exec --no-startup-id ~/.config/i3/scripts/powermenu
 
 # Lock the system
 # lock with a picture:
@@ -352,10 +351,7 @@ client.urgent		    	$urgentred	$urgentred	$white		$yellowbrown	$yellowbrown
 
 ## rofi bindings fancy application menu ($mod+d /F9 optional disabled)
 
-#bindsym $mod+d exec --no-startup-id rofi -modi drun -show drun \
-#		-config ~/.config/rofi/rofidmenu.rasi
-
-bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/type-2/launcher.sh	
+bindsym $mod+d exec --no-startup-id rofi -modi drun -show drun
 
 ## rofi bindings for window menu ($mod+t /F10 optional disabled)
 
